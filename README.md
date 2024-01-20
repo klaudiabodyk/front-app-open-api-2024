@@ -1,3 +1,19 @@
+## Klaudia Bodyk
+
+## Praca inżynierska 2024
+
+## Tytuł
+
+OpenAPI – jako narzędzie do automatyzacji procesu tworzenia aplikacji korzystających z interfejsów API
+
+## Uruchomienie projektu
+
+Aby uruchomić projekt, należy zainstalować ```npm install``` a następnie uruchomić projekt ```npm start```
+
+## Wymagania
+
+Aby uruchomić projekt należy posiadać zainstalowany: Node.js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
