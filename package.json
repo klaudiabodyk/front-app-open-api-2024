@@ -16,6 +16,8 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.8",
+    "swagger-codegen-cli": "^2.2.3",
+    "swagger-typescript-codegen": "^3.2.4",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
