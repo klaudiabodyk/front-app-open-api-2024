@@ -1,14 +1,20 @@
+@keyframes pan {
+  100% {
+    background-position: 90% 99%;
+  }
+}
 html, body {
   height:  100%;
   margin:  0;
   padding:  0;
+  animation: pan  4s infinite alternate linear;
 }
 
 .App {
   background-image: url("../src/resources/blob-scene-haikei 5.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  animation: pan  6s infinite alternate linear;
+  animation: pan  4s infinite alternate linear;
   height:  100%;
   min-height:  100vh;
   display: flex;
