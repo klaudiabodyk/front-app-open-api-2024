@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import NoteList from "./components/NoteList";
-import GlobalStyles from "./styles/GlobalStyles";
+import NoteContainer from "./components/NoteContainer";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-        <GlobalStyles />
-        <NoteList/>
+        <NoteContainer/>
     </div>
   );
 }

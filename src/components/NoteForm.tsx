@@ -1,43 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import styled from 'styled-components';
-
-const FormContainer = styled.div`
-  width: 900px;
-  padding: 40px;
-  border: 4px solid #0066FF;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-`;
-
-const FormLabel = styled.label`
-  display: block;
-  margin: 20px;
-  
-`;
-
-const FormInput = styled.input`
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 40px;
-  margin-top: 20px;
-`;
-
-const FormTextarea = styled.textarea`
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  margin-top: 20px;
-`;
-
-const FormButton = styled.button`
-  background-color: #001e4c;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-`;
+import { Box, TextField, Button } from '@mui/material';
 
 const NoteForm: React.FC = () => {
     const [title, setTitle] = useState<string>('');
@@ -53,26 +16,101 @@ const NoteForm: React.FC = () => {
             setTitle('');
             setContent('');
         } catch (error) {
-            console.error('Błąd podczas dodawania notatki:', error);
+            console.error('Error while adding note:', error);
         }
     };
 
     return (
-        <FormContainer>
-            <h4>Klaudia Bodyk </h4>
-            <h4>Praca Inżynierska 2024</h4>
+        <Box sx={{
+            width:   900,
+            p:   4,
+            backgroundColor: '#001220', // Ciemnoniebieskie tło
+            borderRadius:   24,
+            boxShadow:   1,
+            padding:   10,
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            color: 'white',
+        }}>
+            <h2>Notatnik</h2>
+            <h2>Praca Inżynierska -   2024</h2>
+            <h3>Klaudia Bodyk </h3>
             <br />
-            <h1>Notatnik</h1>
-            <FormLabel>
-                TYTUŁ:
-                <FormInput type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
-            </FormLabel>
-            <FormLabel>
-                TREŚĆ:
-                <FormTextarea value={content} onChange={(e) => setContent(e.target.value)} />
-            </FormLabel>
-            <FormButton onClick={handleAddNote}>DODAJ NOTATKĘ</FormButton>
-        </FormContainer>
+            <TextField
+                label="TYTUŁ:"
+                fullWidth
+                variant="outlined"
+                value={title}
+                onChange={(e) => setTitle(e.target.value)}
+                margin="normal"
+                InputProps={{
+                    style: {
+                        color: '#0077ff',
+                    },
+                }}
+                InputLabelProps={{
+                    style: {
+                        color: '#0077ff',
+                    },
+                }}
+                sx={{
+                    '& .MuiOutlinedInput-notchedOutline': {
+                        borderColor: '#0077ff',
+                    },
+                    '&:hover .MuiOutlinedInput-notchedOutline': {
+                        borderColor: '#0077ff',
+                    },
+                    '& .MuiOutlinedInput-root': {
+                        '&:focus-within': {
+                            borderColor: '#0077ff',
+                        },
+                    },
+                }}
+            />
+            <TextField
+                label="TREŚĆ:"
+                multiline
+                rows={4}
+                fullWidth
+                variant="outlined"
+                value={content}
+                onChange={(e) => setContent(e.target.value)}
+                margin="normal"
+                InputProps={{
+                    style: {
+                        color: '#0077ff',
+                    },
+                }}
+                InputLabelProps={{
+                    style: {
+                        color: '#0077ff',
+                    },
+                }}
+                sx={{
+                    '& .MuiOutlinedInput-notchedOutline': {
+                        borderColor: '#0077ff',
+                    },
+                    '&:hover .MuiOutlinedInput-notchedOutline': {
+                        borderColor: '#0077ff',
+                    },
+                    '& .MuiOutlinedInput-root': {
+                        '&:focus-within': {
+                            borderColor: '#0077ff',
+                        },
+                    },
+                }}
+            />
+            <Button
+                variant="contained"
+                color="primary"
+                onClick={handleAddNote}
+                sx={{ mt:   2, bgcolor: '#0077ff', color: '#FFFFFF' }}
+            >
+                DODAJ NOTATKĘ
+            </Button>
+        </Box>
     );
 };
 
