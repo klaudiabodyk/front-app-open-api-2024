@@ -1,3 +1,5 @@
+<iframe src="https://giphy.com/embed/E9OviwTo2nWaRSZU4B" width="480" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/E9OviwTo2nWaRSZU4B">via GIPHY</a></p>
+
 <img width="1440" alt="Zrzut ekranu 2024-02-9 o 15 23 48" src="https://github.com/klaudiabodyk/front-app-open-api-2024/assets/58658813/cafdab86-f73b-4448-86b0-1dc3af1a7a66">
 
 
