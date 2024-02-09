@@ -1,4 +1,4 @@
-[<iframe src="https://giphy.com/embed/E9OviwTo2nWaRSZU4B" width="480" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/E9OviwTo2nWaRSZU4B">via GIPHY</a></p>](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajAyYXQ0bm9vaXdiMGZyaG90NHI3Znp5Y3d3YnNrZ25idHA3czN3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/E9OviwTo2nWaRSZU4B/giphy.gif)
+<img width="1440" alt="Zrzut ekranu 2024-02-9 o 15 23 48" src="https://media.giphy.com/media/E9OviwTo2nWaRSZU4B/giphy.gif">
 
 <img width="1440" alt="Zrzut ekranu 2024-02-9 o 15 23 48" src="https://github.com/klaudiabodyk/front-app-open-api-2024/assets/58658813/cafdab86-f73b-4448-86b0-1dc3af1a7a66">
 
