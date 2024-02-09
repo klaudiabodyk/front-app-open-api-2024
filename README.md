@@ -1,3 +1,5 @@
+![](https://github.com/klaudiabodyk/front-app-open-api-2024/blob/master/src/resources/SampleVideo.gif)
+
 <img width="720" alt="Zrzut ekranu 2024-02-9 o 15 23 48" src="https://media.giphy.com/media/E9OviwTo2nWaRSZU4B/giphy.gif">
 
 <img width="1440" alt="Zrzut ekranu 2024-02-9 o 15 23 48" src="https://github.com/klaudiabodyk/front-app-open-api-2024/assets/58658813/cafdab86-f73b-4448-86b0-1dc3af1a7a66">
